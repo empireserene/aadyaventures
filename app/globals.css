@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-jakarta);
+  --color-navy-950: #07111d;
+  --color-navy-900: #0b1a2c;
+  --color-navy-850: #0e2238;
+  --color-navy-800: #122844;
+  --color-navy-700: #173552;
+  --color-navy-600: #1e4568;
+  --color-ink: #0e1a2b;
+  --color-muted: #8ea3b8;
+  --color-paper: #f3f5f7;
+  --color-line: rgba(14, 26, 43, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #07111d;
+  color: #ffffff;
+  font-family: var(--font-jakarta), "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: #1e4568;
+  color: #fff;
+}
+
+.pinstripe {
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.045) 0,
+    rgba(255, 255, 255, 0.045) 1px,
+    transparent 1px,
+    transparent 52px
+  );
+}
+
+.pinstripe-light {
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(14, 26, 43, 0.045) 0,
+    rgba(14, 26, 43, 0.045) 1px,
+    transparent 1px,
+    transparent 64px
+  );
+}
+
+.light-sweep {
+  background:
+    radial-gradient(
+      90% 70% at 28% 42%,
+      rgba(170, 210, 255, 0.16) 0%,
+      rgba(170, 210, 255, 0.05) 32%,
+      transparent 62%
+    ),
+    linear-gradient(
+      118deg,
+      transparent 36%,
+      rgba(255, 255, 255, 0.07) 48%,
+      transparent 62%
+    );
+}
+
+.arc-rings::before,
+.arc-rings::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  translate: 0 -50%;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  pointer-events: none;
+}
+
+.arc-rings::before {
+  width: 92%;
+  height: 160%;
+}
+
+.arc-rings::after {
+  width: 68%;
+  height: 120%;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reveal {
+  animation: rise 0.9s ease both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
