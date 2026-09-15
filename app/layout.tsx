@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     "UAE venture capital",
     "DIFC investment",
     "real estate investment Dubai",
-    "oil and energy investment UAE",
     "technology investment GCC",
   ],
   authors: [{ name: site.name }],

@@ -16,7 +16,7 @@ export function Footer() {
           <Logo tone="light" withWordmark />
           <p className="mt-6 max-w-sm text-[15px] leading-7 text-white/55">
             Dubai-based investment company allocating capital into information
-            technology, real estate, oil and energy, and selected adjacent
+            technology, real estate, and selected adjacent
             sectors.
           </p>
         </div>

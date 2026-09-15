@@ -7,7 +7,7 @@ import { mandates } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Portfolio",
   description:
-    "Thematic investment mandates of Aadya Ventures Limited across technology, real estate, oil and energy, and adjacent platforms.",
+    "Thematic investment mandates of Aadya Ventures Limited across technology, real estate, and adjacent platforms.",
   path: "/portfolio",
   image: "/images/sector-real-estate.png",
 });

@@ -7,7 +7,7 @@ import { sectors } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Sectors",
   description:
-    "Aadya Ventures invests in information technology, real estate, oil and energy, and selected adjacent sectors from Dubai, UAE.",
+    "Aadya Ventures invests in information technology, real estate, and selected adjacent sectors from Dubai, UAE.",
   path: "/sectors",
   image: "/images/handshake-deal.png",
 });
@@ -22,8 +22,8 @@ export default function SectorsPage() {
           </h1>
           <p className="max-w-md text-[17px] leading-7 text-white/55 lg:justify-self-end">
             Aadya Ventures focuses on industries where innovation, real assets,
-            and energy demand create significant growth opportunities from a
-            Dubai base.
+            and scalable operating platforms create significant growth
+            opportunities from a Dubai base.
           </p>
         </div>
         <div className="grid lg:grid-cols-[0.42fr_0.58fr]">
@@ -63,7 +63,7 @@ export default function SectorsPage() {
       <Pinstripe className="bg-navy-950">
         <div className="mx-auto max-w-[1440px] px-5 py-20 sm:px-8 lg:px-14">
           <h2 className="max-w-3xl text-[clamp(1.5rem,3vw,2.4rem)] font-medium tracking-[-0.03em]">
-            Four books. One underwriting standard.
+            Three books. One underwriting standard.
           </h2>
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             {sectors.map((sector) => (

@@ -28,7 +28,6 @@ export function JsonLd() {
           "Venture capital",
           "Information technology investment",
           "Real estate investment",
-          "Oil and energy investment",
           "Dubai",
         ],
       },

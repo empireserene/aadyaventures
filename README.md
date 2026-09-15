@@ -1,6 +1,6 @@
 # Aadya Ventures Limited
 
-Corporate website for **Aadya Ventures Limited**, a Dubai-based investment company allocating capital into information technology, real estate, oil & energy, and selected adjacent sectors.
+Corporate website for **Aadya Ventures Limited**, a Dubai-based investment company allocating capital into information technology, real estate, and selected adjacent sectors.
 
 Built with Next.js (App Router) and Tailwind CSS, ready for [Vercel](https://vercel.com).
 

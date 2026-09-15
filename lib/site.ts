@@ -5,7 +5,7 @@ export const site = {
   tagline: "Backing operators.\nBuilding scalable companies.",
   taglineSingle: "Backing operators. Building scalable companies.",
   description:
-    "Aadya Ventures Limited is a Dubai-based investment company deploying capital into information technology, real estate, oil and energy, and selected adjacent sectors.",
+    "Aadya Ventures Limited is a Dubai-based investment company deploying capital into information technology, real estate, and selected adjacent sectors.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://aadyaventures.com",
   locale: "en_AE",
   email: "enquiries@aadyaventures.com",
@@ -87,33 +87,13 @@ export const sectors = [
       "Dubai remains a magnet for capital, residents, and tourism. We underwrite assets on cash flow, planning risk, and the quality of the operating partner — not on narrative alone.",
   },
   {
-    slug: "oil-energy",
-    name: "Oil & Energy",
-    shortName: "Oil & Energy",
-    summary:
-      "Energy infrastructure, services, and transition-aligned platforms serving regional and global demand.",
-    description:
-      "Energy remains a core engine of the regional economy. We partner with operators across conventional energy, midstream infrastructure, power, and technologies that improve efficiency, reliability, and the energy transition.",
-    image: "/images/sector-energy.png",
-    imageAlt:
-      "Energy infrastructure at dusk, representing oil and energy investments.",
-    bullets: [
-      "Energy services, midstream, and storage",
-      "Power, utilities, and industrial energy",
-      "Transition-aligned infrastructure and efficiency",
-      "Energy technology with contracted demand",
-    ],
-    thesis:
-      "The GCC energy complex is both a cash-flow engine and a transition platform. We look for assets and companies with offtake, operational excellence, and a clear path to scale.",
-  },
-  {
     slug: "adjacent-sectors",
     name: "Emerging & Adjacent Sectors",
     shortName: "Adjacent Sectors",
     summary:
       "Logistics, industrials, and other platforms where capital and operators can unlock durable value.",
     description:
-      "Beyond our three primary sectors, we consider logistics, industrials, healthcare, education, and selected consumer platforms where the market is large, the model is scalable, and the team can execute.",
+      "Beyond technology and real estate, we consider logistics, industrials, healthcare, education, and selected consumer platforms where the market is large, the model is scalable, and the team can execute.",
     image: "/images/sector-adjacent.png",
     imageAlt:
       "A modern container port at dusk, representing logistics and adjacent sector investments.",
@@ -220,14 +200,6 @@ export const mandates = [
     image: "/images/sector-real-estate.png",
   },
   {
-    sector: "Oil & Energy",
-    title: "Energy services and midstream partnership",
-    status: "Thematic mandate",
-    summary:
-      "Capital for an operator with contracted or highly visible demand, disciplined working-capital needs, and a platform that can bolt on adjacent capabilities.",
-    image: "/images/sector-energy.png",
-  },
-  {
     sector: "Adjacent",
     title: "Logistics corridor and industrial platform",
     status: "Thematic mandate",
@@ -240,6 +212,5 @@ export const mandates = [
 export const trustStrip = [
   "Information Technology",
   "Real Estate",
-  "Oil & Energy",
   "Adjacent Platforms",
 ];

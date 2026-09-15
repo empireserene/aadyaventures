@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "About",
   description:
-    "Aadya Ventures Limited is a Dubai-based investment company partnering with operators across technology, real estate, oil and energy, and adjacent sectors.",
+    "Aadya Ventures Limited is a Dubai-based investment company partnering with operators across technology, real estate, and adjacent sectors.",
   path: "/about",
   image: "/images/about-difc.png",
 });
@@ -48,8 +48,8 @@ export default function AboutPage() {
           </h2>
           <p className="mt-6 text-[16px] leading-7 text-ink/65">
             {site.name} deploys capital into information technology, real
-            estate, oil and energy, and selected adjacent platforms. We work
-            from {site.address.line2}, with counterparties across the UAE, the
+            estate, and selected adjacent platforms. We work from{" "}
+            {site.address.line2}, with counterparties across the UAE, the
             wider GCC, and international markets.
           </p>
           <p className="mt-5 text-[16px] leading-7 text-ink/65">

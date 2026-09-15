@@ -7,7 +7,7 @@ import Image from "next/image";
 export const metadata = pageMetadata({
   title: "Contact",
   description:
-    "Partner with Aadya Ventures Limited. Contact our Dubai investment office to discuss technology, real estate, energy, and adjacent opportunities.",
+    "Partner with Aadya Ventures Limited. Contact our Dubai investment office to discuss technology, real estate, and adjacent opportunities.",
   path: "/contact",
   image: "/images/dubai-towers.png",
 });
