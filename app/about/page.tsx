@@ -48,9 +48,9 @@ export default function AboutPage() {
           </h2>
           <p className="mt-6 text-[16px] leading-7 text-ink/65">
             {site.name} deploys capital into information technology, real
-            estate, and selected adjacent platforms. We work from{" "}
-            {site.address.line2}, with counterparties across the UAE, the
-            wider GCC, and international markets.
+            estate, and selected adjacent platforms. We work from Burj Gate,
+            Downtown Dubai, with counterparties across the UAE, the wider GCC,
+            and international markets.
           </p>
           <p className="mt-5 text-[16px] leading-7 text-ink/65">
             We are not a spray-and-pray venture fund, and we are not a purely

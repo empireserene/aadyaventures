@@ -48,6 +48,8 @@ export function Footer() {
             <br />
             {site.address.line2}
             <br />
+            {site.address.line3}
+            <br />
             {site.address.city}, {site.address.country}
           </address>
         </div>

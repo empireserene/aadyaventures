@@ -19,9 +19,10 @@ export function JsonLd() {
         },
         address: {
           "@type": "PostalAddress",
-          streetAddress: `${site.address.line1}, ${site.address.line2}`,
+          streetAddress: `${site.address.line1}, ${site.address.line2}, ${site.address.line3}`,
           addressLocality: site.address.city,
           addressCountry: "AE",
+          postalCode: "8867",
         },
         areaServed: ["AE", "GCC"],
         knowsAbout: [

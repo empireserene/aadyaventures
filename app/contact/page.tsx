@@ -73,7 +73,7 @@ export default function ContactPage() {
                 <dt className="text-[11px] uppercase tracking-[0.16em] text-ink/40">
                   Address
                 </dt>
-                <dd className="mt-2 max-w-xs leading-7">{site.address.full}</dd>
+                <dd className="mt-2 max-w-sm leading-7">{site.address.full}</dd>
               </div>
               <div>
                 <dt className="text-[11px] uppercase tracking-[0.16em] text-ink/40">

@@ -12,11 +12,12 @@ export const site = {
   phone: "+971 4 368 2140",
   phoneHref: "+97143682140",
   address: {
-    line1: "Office 2401, Index Tower",
-    line2: "Dubai International Financial Centre",
+    line1: "48, Burj Gate - 7th Floor",
+    line2: "Sofitel Hotel Downtown, Sheikh Zayed Road",
+    line3: "P.O 8867",
     city: "Dubai",
     country: "United Arab Emirates",
-    full: "Office 2401, Index Tower, DIFC, Dubai, United Arab Emirates",
+    full: "48, Burj Gate - 7th Floor, Sofitel Hotel Downtown, Sheikh Zayed Road, P.O 8867, Dubai, United Arab Emirates",
   },
   hours: "Sunday – Thursday, 9:00 – 18:00 GST",
 };
